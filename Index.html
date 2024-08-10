@@ -1,0 +1,553 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Sree Senior Homes</title>
+
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0/dist/css/bootstrap.min.css" rel="stylesheet">
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap-icons/font/bootstrap-icons.css" rel="stylesheet">
+    <link rel="stylesheet" href="Index.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.4/css/all.min.css">
+    <link href="https://cdnjs.cloudflare.com/ajax/libs/OwlCarousel2/2.3.4/assets/owl.carousel.min.css" rel="stylesheet">
+    <link href="https://cdnjs.cloudflare.com/ajax/libs/OwlCarousel2/2.3.4/assets/owl.theme.default.min.css" rel="stylesheet">
+    
+    <style>
+      .secondnavbar {
+            background-color: #333333;
+            position: sticky;
+            top: 0;
+            z-index: 1030;
+        }
+
+        .content {
+            height: 2000px; 
+            background-color: #f5f5f5;
+            padding: 20px;
+        }
+    </style>
+</head>
+<body style="font-family: var(--aports-font);">
+
+    <div class="top-bar">
+        <div class="container d-flex justify-content-between">
+            <div class="toph1">
+<p>OPENING HOURS: MON-SAT 9.00AM TO 6.00PM</p>
+            </div>
+            <span class="toph2">SCHEDULE A VISIT</span>
+        </div>
+    </div>
+    
+    <nav class="navbar secondnavbar navbar-expand-lg navbar" style="background-color: 	#929292;">
+      <div class="container-fluid">
+        <a class="navbar-brand" href="#">
+          <img src="logo.png" alt="APORTS Logo">
+        </a>
+        <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNav" aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation">
+          <span class="navbar-toggler-icon"></span>
+        </button>
+        <div class="collapse navbar-collapse" id="navbarNav">
+          <ul class="navbar-nav mx-auto" style="background-color: 	#929292;"> 
+            <li class="nav-item">
+              <a class="nav-link active" href="#">HOME</a>
+            </li>
+            <li class="nav-item">
+              <a class="nav-link" href="#">COMPANY</a>
+            </li>
+            <li class="nav-item">
+              <a class="nav-link" href="#">PROJECT</a>
+            </li>
+            <li class="nav-item">
+              <a class="nav-link" href="#">CONTACT</a>
+            </li>
+          </ul>
+          <div class="d-flex socialicons">
+            <a href="https://twitter.com" target="_blank"><i class="bi bi-twitter"></i></a>
+            <a href="https://facebook.com" target="_blank"><i class="bi bi-facebook"></i></a>
+            <a href="https://pinterest.com" target="_blank"><i class="bi bi-pinterest"></i></a>
+            <a href="https://instagram.com" target="_blank"><i class="bi bi-instagram"></i></a>
+          </div>
+        </div>
+      </div>
+    </nav>
+
+    <div id="carouselExampleIndicators" class="carousel slide" data-bs-ride="carousel" data-bs-interval="5000">
+        <div class="carousel-inner">
+            <div class="carousel-item active" style="background-image: url('—Pngtree—contemporary\ apartment\ interior\ dark\ classic_4056466.jpg'); background-size: cover; background-position: center;">
+                <div class="carousel-caption d-flex flex-column justify-content-center align-items-center">
+                    <h2>Fully Managed Senior Homes</h2>
+                    <p>The perfect property tailored to your needs</p>
+                    <button class="headbutton" data-bs-toggle="modal" data-bs-target="#enquiryModal">Enquire Now</button>
+                </div>
+            </div>
+            <div class="carousel-item" style="background-image: url('zia-syed-gOq27RHoL3s-unsplash.jpg');  background-size: cover; background-position: center;">
+                <div class="carousel-caption d-flex flex-column justify-content-center align-items-center">
+                    <h2 style="color: orange;">Fully Managed Senior Homes</h2>
+                    <p>The perfect property tailored to your needs</p>
+                    <button class="headbutton" data-bs-toggle="modal" data-bs-target="#enquiryModal">Enquire Now</button>
+                </div>
+            </div>
+            <div class="carousel-item" style="background-image: url('linedphoto-cGcHSGzSDoM-unsplash.jpg');background-size: cover; background-position: center;">
+                <div class="carousel-caption d-flex flex-column justify-content-center align-items-center">
+                    <h2>Modern Facilities</h2>
+                    <p>The perfect property tailored to your needs</p>
+                    <button class="headbutton" data-bs-toggle="modal" data-bs-target="#enquiryModal">Enquire Now</button>
+                </div>
+            </div>
+        </div>
+    </div>
+
+    <div class="modal fade" id="enquiryModal" tabindex="-1" aria-labelledby="enquiryModalLabel" aria-hidden="true">
+        <div class="modal-dialog modal-dialog-centered">
+            <div class="modal-content">
+                <div class="modal-header">
+                    <h5 class="modal-title" id="enquiryModalLabel">Enquire Now</h5>
+                    <button type="button" class="close" data-bs-dismiss="modal" aria-label="Close">
+                        <span aria-hidden="true">&times;</span>
+                    </button>
+                </div>
+                <div class="modal-body">
+                    <form>
+                        <div class="form-group">
+                            <label for="name">Name</label>
+                            <input type="text" class="form-control" id="name" placeholder="Enter your name">
+                        </div>
+                        <div class="form-group">
+                            <label for="email">Email address</label>
+                            <input type="email" class="form-control" id="email" placeholder="Enter your email">
+                        </div>
+                        <div class="form-group">
+                            <label for="message">Message</label>
+                            <textarea class="form-control" id="message" rows="3" placeholder="Enter your message"></textarea>
+                        </div>
+                        <button type="submit" class="entryform btn btn-primary">Submit</button>
+                    </form>
+                </div>
+            </div>
+        </div>
+    </div>
+
+<div class="container-fluid py-5 aboutus">
+        <div class="row">
+            <div class="col-md-6" style="position: relative; text-align: center; margin: auto;">
+                <div class="background-overlay"></div>
+                <div class="image-container sparkle u-hover--sparkle">
+                    <img src="about (2).jpg" class="img-fluid aboutusimg" alt="Villa Image">
+                </div>
+            </div>
+            <div class="col-md-6" style="position: relative; margin-top: 50px;">
+                <div class="background-overlay"></div>
+                <div class="content-container imagepara">
+                    <h2>About Sree Senior Homes</h2>
+                    <p>There are many variations of passages of Lorem Ipsum available, but the majority have suffered
+                        alteration in some form, by injected humour, or randomised words which don't look even slightly
+                        believable. If you are going to use a passage of Lorem Ipsum, you need to be sure there isn't
+                        anything embarrassing hidden in the middle of text.</p>
+                    <p>There are many variations of passages of Lorem Ipsum available, but the majority hav or randomised words which don't look even slightly
+                            anything embarrassing hidden in the middle of text.</p>
+                    <ul class="list-unstyled">
+                        <li><i class="fas fa-check-circle" style="color: #ceae92;"></i> Lorem ipsum dolor sit amet</li>
+                        <li><i class="fas fa-check-circle" style="color: #ceae92;"></i>
+                            Sed tempor arcu non ligula convallis</li>
+                        <li><i class="fas fa-check-circle" style="color: #ceae92;"></i>
+                            Fusce sodales lacus sollicitudin</li>
+                        <li><i class="fas fa-check-circle" style="color: #ceae92;"></i>
+                            Curabitur efficitur gravida ligula siml is not</li>
+                    </ul>
+                    <P>Lorem ipsum dolor sit amet consectetur adipisicing elit. Vel vitae officia explicabo commodi
+                        maiores eaque.</P>
+                </div>
+            </div>
+        </div>
+    </div>  
+
+    <div class="container-fluid">
+        <div class="text-center mb-5">
+            <h1 class="text-uppercase">Floor Plans</h1>
+        </div>
+
+        <div id="carouselindicator" class="carousel slide">
+            <div class="carousel-inner">
+                <div class="carousel-it active">
+                    <div class="row">
+                        <div class="col-lg-4 col-md-12 col-sm-12 floordetails">
+                            <ul class="list-unstyled floor-details">
+                                <li class="mb-3"><strong>Floors:</strong> 2 Floors</li>
+                                <li class="mb-3"><strong>Bedrooms:</strong> 6</li>
+                                <li class="mb-3"><strong>Bathrooms:</strong> 4</li>
+                                <li class="mb-3"><strong>Total Area Sq.Feet:</strong> 2450 Sq</li>
+                                <li class="mb-3"><strong>Parking:</strong> Yes</li>
+                                <li class="mb-3"><strong>Price:</strong> $78,4600</li>
+                            </ul>
+                        </div>
+                        <div class="col-lg-4 col-md-6 col-sm-12 text-center floorimage">
+                            <div class="imagebox">
+                                <img src="floors.jpg" alt="Floor Plan" class="img-fluid mb-4">
+                            </div>
+                        </div>
+                        <div class="col-lg-4 col-md-6 col-sm-12 floorcontents">
+                            <p>There are many variations of passages of psum available, but the majority have alteration in some form, by injected humour, or randomised words which don't look even slightly believable. If you are going to use a passage of Lorem Ipsum, you need to be sure there isn’t anything embarrassing hidden in the middle of text.lor</p>
+                            <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Omnis ab porro aliquam iusto minima animi sunt perferendis accusamus laborum ipsum?</p>
+                        </div>
+                    </div>
+                </div>
+
+                <div class="carousel-it">
+                    <div class="row">
+                        <div class="col-lg-4 col-md-12 col-sm-12 floordetails">
+                            <ul class="list-unstyled floor-details">
+                                <li class="mb-3"><strong>Floors:</strong> 2 Floors</li>
+                                <li class="mb-3"><strong>Bedrooms:</strong> 6</li>
+                                <li class="mb-3"><strong>Bathrooms:</strong> 4</li>
+                                <li class="mb-3"><strong>Total Area Sq.Feet:</strong> 2450 Sq</li>
+                                <li class="mb-3"><strong>Parking:</strong> Yes</li>
+                                <li class="mb-3"><strong>Price:</strong> $78,4600</li>
+                            </ul>
+                        </div>
+                        <div class="col-lg-4 col-md-6 col-sm-12 text-center floorimage">
+                            <div class="imagebox">
+                                <img src="floors.jpg" alt="Floor Plan" class="img-fluid mb-4">
+                            </div>
+                        </div>
+                        <div class="col-lg-4 col-md-6 col-sm-12 floorcontents">
+                            <p>There are many variations of passages of psum available, but the majority have alteration in some form, by injected humour, or randomised words which don't look even slightly believable. If you are going to use a passage of Lorem Ipsum, you need to be sure there isn’t anything embarrassing hidden in the middle of text.lor</p>
+                            <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Omnis ab porro aliquam iusto minima animi sunt perferendis accusamus laborum ipsum?</p>
+                        </div>
+                    </div>
+                </div>
+
+                <div class="carousel-it">
+                    <div class="row">
+                        <div class="col-lg-4 col-md-12 col-sm-12 floordetails">
+                            <ul class="list-unstyled floor-details">
+                                <li class="mb-3"><strong>Floors:</strong> 2 Floors</li>
+                                <li class="mb-3"><strong>Bedrooms:</strong> 6</li>
+                                <li class="mb-3"><strong>Bathrooms:</strong> 4</li>
+                                <li class="mb-3"><strong>Total Area Sq.Feet:</strong> 2450 Sq</li>
+                                <li class="mb-3"><strong>Parking:</strong> Yes</li>
+                                <li class="mb-3"><strong>Price:</strong> $78,4600</li>
+                            </ul>
+                        </div>
+                        <div class="col-lg-4 col-md-6 col-sm-12 text-center floorimage">
+                            <div class="imagebox">
+                                <img src="floors.jpg" alt="Floor Plan" class="img-fluid mb-4">
+                            </div>
+                        </div>
+                        <div class="col-lg-4 col-md-6 col-sm-12 floorcontents">
+                            <p>There are many variations of passages of psum available, but the majority have alteration in some form, by injected humour, or randomised words which don't look even slightly believable. If you are going to use a passage of Lorem Ipsum, you need to be sure there isn’t anything embarrassing hidden in the middle of text.lor</p>
+                            <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Omnis ab porro aliquam iusto minima animi sunt perferendis accusamus laborum ipsum?</p>
+                        </div>
+                    </div>
+                </div>
+            </div>
+            <div class="text-center mt-4">
+                <a class="carousel-control-prev" href="#carouselindicator" role="button" data-bs-slide="prev">
+                    <img src="icons8-forward-button-32 (2).png" alt="Previous" style="width: 50px; height: 50px;">
+                </a>
+                <a class="carousel-control-next" href="#carouselindicator" role="button" data-bs-slide="next">
+                    <img src="icons8-forward-button-32 (1).png" alt="Next" style="width: 50px; height: 50px;">
+                </a>
+            </div>
+        </div>
+    </div>
+
+    <script>
+    document.addEventListener('DOMContentLoaded', function () {
+        const carousel = document.querySelector('#carouselindicator');
+        const carouselItems = carousel.querySelectorAll('.carousel-it');
+        let activeIndex = 0;
+
+        function updateSlide(newIndex) {
+            if (newIndex === activeIndex) return;
+
+            carouselItems[activeIndex].classList.remove('active');
+            carouselItems[newIndex].classList.add('active');
+            activeIndex = newIndex;
+        }
+
+        const nextButton = carousel.querySelector('.carousel-control-next');
+        const prevButton = carousel.querySelector('.carousel-control-prev');
+
+        nextButton.addEventListener('click', function () {
+            const nextIndex = (activeIndex + 1) % carouselItems.length;
+            updateSlide(nextIndex);
+        });
+
+        prevButton.addEventListener('click', function () {
+            const prevIndex = (activeIndex - 1 + carouselItems.length) % carouselItems.length;
+            updateSlide(prevIndex);
+        });
+    });
+    </script>
+
+    <div class="container-fluid mt-5">
+        <h2 style="color: #ceae92;" class="text-center mb-4">Gallery</h2>
+
+        <div class="owl-carousel owl-theme">
+            <div class="item"><img src="caro1.jpg" alt="Image 1" class="img-fluid"></div>
+            <div class="item"><img src="caro2.jpg" alt="Image 2" class="img-fluid"></div>
+            <div class="item"><img src="caro3.jpg" alt="Image 3" class="img-fluid"></div>
+            <div class="item"><img src="caro4.jpg" alt="Image 4" class="img-fluid"></div>
+            <div class="item"><img src="caro5.jpg" alt="Image 5" class="img-fluid"></div>
+            <div class="item"><img src="caro6.jpg" alt="Image 6" class="img-fluid"></div>
+            <div class="item"><img src="caro3.jpg" alt="Image 7" class="img-fluid"></div>
+            <div class="item"><img src="caro6.jpg" alt="Image 8" class="img-fluid"></div>
+            <div class="item"><img src="caro3.jpg" alt="Image 9" class="img-fluid"></div>
+            <div class="item"><img src="caro1.jpg" alt="Image 10" class="img-fluid"></div>
+        </div>
+    </div>
+
+    <div class="container-fluid amenities ">
+        <h2 class="text-center mb-4">Amenities</h2>
+        <div class="row rowtop">
+            <div class="col-md-4">
+                <div class="card p-3 text-center">
+                    <img src="a1.svg" class="card-img-top mx-auto" alt="Icon 1" style="width: 50px;">
+                    <div class="card-body">
+                        <h5 class="card-title">Free Self-Parking</h5>
+                        <p class="card-text">A hotel is an establishment that provides paid lodging on a short-term basis. Facilities provided may range from a modest quality.</p>
+                        <div class="read-more"><a href="#">READ MORE</a></div>
+                    </div>
+                </div>
+            </div>
+            <div class="col-md-4">
+                <div class="card p-3 text-center">
+                    <img src="a2.svg" class="card-img-top mx-auto" alt="Icon 2" style="width: 50px;">
+                    <div class="card-body">
+                        <h5 class="card-title">High-speed Internet access</h5>
+                        <p class="card-text">A hotel is an establishment that provides paid lodging on a short-term basis. Facilities provided may range from a modest quality.</p>
+                        <div class="read-more"><a href="#">READ MORE</a></div>
+                    </div>
+                </div>
+            </div>
+            <div class="col-md-4 ">
+                <div class="card p-3 text-center">
+                    <img src="a3.svg" class="card-img-top mx-auto" alt="Icon 3" style="width: 50px;">
+                    <div class="card-body">
+                        <h5 class="card-title">Complimentary WiFi in public areas</h5>
+                        <p class="card-text">A hotel is an establishment that provides paid lodging on a short-term basis. Facilities provided may range from a modest quality.</p>
+                        <div class="read-more"><a href="#">READ MORE</a></div>
+                    </div>
+                </div>
+            </div>
+        </div>
+
+        <div class="row mt-4 rowbottom">
+            <div class="col-md-4">
+                <div class="card p-3 text-center">
+                    <img src="a4.svg" class="card-img-top mx-auto" alt="Icon 4" style="width: 50px;">
+                    <div class="card-body">
+                        <h5 class="card-title">Room Service</h5>
+                        <p class="card-text">A hotel is an establishment that provides paid lodging on a short-term basis. Facilities provided may range from a modest quality.</p>
+                        <div class="read-more"><a href="#">READ MORE</a></div>
+                    </div>
+                </div>
+            </div>
+            <div class="col-md-4">
+                <div class="card p-3 text-center">
+                    <img src="a5.svg" class="card-img-top mx-auto" alt="Icon 5" style="width: 50px;">
+                    <div class="card-body">
+                        <h5 class="card-title">Swimming Pool</h5>
+                        <p class="card-text">A hotel is an establishment that provides paid lodging on a short-term basis. Facilities provided may range from a modest quality.</p>
+                        <div class="read-more"><a href="#">READ MORE</a></div>
+                    </div>
+                </div>
+            </div>
+            <div class="col-md-4">
+                <div class="card p-3 text-center">
+                    <img src="a6.svg" class="card-img-top mx-auto" alt="Icon 6" style="width: 50px;">
+                    <div class="card-body">
+                        <h5 class="card-title">Fitness Center</h5>
+                        <p class="card-text">A hotel is an establishment that provides paid lodging on a short-term basis. Facilities provided may range from a modest quality.</p>
+                        <div class="read-more"><a href="#">READ MORE</a></div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+
+    <div class="container-fluid coins">
+        <div class="row">
+            <div class="col-md-4 features-list">
+                <ul>
+                    <li><span>01</span> Water Storage</li>
+                    <li><span>02</span>Fire Exiting</li>
+                    <li><span>03</span>Solar Systems</li>
+                    <li><span>04</span>Children Playground</li>
+                    <li><span>05</span>Swimming Pool</li>
+                </ul>
+            </div>
+            <div class="col-md-8 features-image">
+                <div class="overlayy">
+                    <h2>Villa Amazing Features</h2>
+                    <h1>Why You Should<br> Choose It</h1>
+                </div>
+            </div>
+        </div>
+    </div>   
+
+    <div class="testimonial-background">
+        <div class="container-fluid testimonial-section">
+            <h2 class="testimonial-title">Our Client Reviews</h2>
+            <div class="row testimonials">
+                <div class="col-md-3 testimonial">
+                    <div class="testimonial-img">
+                        <img src="user-png-33856.png" alt="Avinashxyz Kr">
+                    </div>
+                    <p class="testimonial-text">"Like this video and ask your questions in the comment section, don't forget to Subscribe Easy Tutorials YouTube channel to watch more videos of website designing, digital marketing, and photoshop."</p>
+                    <p class="testimonial-author">Avinash  <span>Co-Founder at xyz</span></p>
+                </div>
+                <div class="col-md-3 testimonial">
+                    <div class="testimonial-img">
+                        <img src="profile.png" alt="Avinash Kr">
+                    </div>
+                    <p class="testimonial-text">"Like this video and ask your questions in the comment section, don't forget to Subscribe Easy Tutorials YouTube channel to watch more videos of website designing, digital marketing, and photoshop."</p>
+                    <p class="testimonial-author">Avinash K <span>Co-Founder at xyz</span></p>
+                </div>
+                <div class="col-md-3 testimonial">
+                    <div class="testimonial-img">
+                        <img src="user-png-33856.png" alt="raju Kr">
+                    </div>
+                    <p class="testimonial-text">"Like this video and ask your questions in the comment section, don't forget to Subscribe Easy Tutorials YouTube channel to watch more videos of website designing, digital marketing, and photoshop."</p>
+                    <p class="testimonial-author">Avi Kr <span>Co-Founder at xyz</span></p>
+                </div>
+                <div class="col-md-3 testimonial">
+                    <div class="testimonial-img">
+                        <img src="woman.png" alt="xyz Kr">
+                    </div>
+                    <p class="testimonial-text">"Like this video and ask your questions in the comment section, don't forget to Subscribe Easy Tutorials YouTube channel to watch more videos of website designing, digital marketing, and photoshop."</p>
+                    <p class="testimonial-author">Avi <span>Co-Founder at xyz</span></p>
+                </div>
+            </div>
+        </div>
+    </div>
+
+    <script>
+        document.addEventListener("DOMContentLoaded", function() {
+        const testimonials = document.querySelectorAll(".testimonial");
+        const testimonialsToShow = 1; 
+        let currentIndex = 0;
+
+        function showNextTestimonials() {
+            testimonials.forEach(testimonial => testimonial.classList.remove("active"));
+
+            for (let i = 0; i < testimonialsToShow; i++) {
+                let index = (currentIndex + i) % testimonials.length;
+                testimonials[index].classList.add("active");
+            }
+
+            currentIndex = (currentIndex + testimonialsToShow) % testimonials.length;
+        }
+
+        showNextTestimonials();
+        setInterval(showNextTestimonials, 10000);
+    });
+
+    </script>
+
+    <div class="container-fluid information-section " id="information-section">
+        <div class="row">
+            <div class="col-md-6 information-info">
+                <h2>Contact Now</h2>
+                <h1>Get in touch with us</h1>
+                <img src="man.png" alt="Agent Image">
+                <p class="agent-name">Kevin Smith</p>
+                <p class="agent-title">Certified agent</p>
+                <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. In hac habitasse platea dictumst. Duis porta, quam ut finibus ultrices.</p>
+                <div class="information-info-details">
+                    <div class="information-item">
+                        <i class="fas fa-phone-alt"></i>
+                        <div class="information-text">
+                            <p>Have any question?</p>
+                            <p class="highlight">Free +23 (000)–9850</p>
+                        </div>
+                    </div>
+                    <div class="information-item">
+                        <i class="fas fa-envelope"></i>
+                        <div class="information-text">
+                            <p>Write email</p>
+                            <p class="highlight">needhelp@company.com</p>
+                        </div>
+                    </div>
+                </div>
+            </div>
+            
+            <div class="col-md-6 information-form">
+                <form>
+                    <div class="form-row">
+                        <div class="form-group col-md-6">
+                            <input type="text" class="form-control" placeholder="Your name">
+                        </div>
+                        <div class="form-group col-md-6">
+                            <input type="email" class="form-control" placeholder="Email address">
+                        </div>
+                    </div>
+                    <div class="form-group">
+                        <textarea class="form-control" rows="5" placeholder="Write message"></textarea>
+                    </div>
+                    <button type="submit" class="btn btn-block">Send a message</button>
+                </form>
+            </div>
+        </div>
+    </div>
+
+    <div class="container-fluid footer" id="footer">
+        <div class="row footer-content">
+            <div class="col-md-6 footer-content-left">
+                <img src="logo.png" alt="Logo" />
+                <p>Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard dummy text ever since the 1500s, when an unknown printer took a galley of type and scrambled it to make a type specimen book.</p>
+                <div class="footer-social-icons">
+                    <img src="facebook_icon.png" alt="Facebook" class="facebook-icon" />
+                    <img src="twitter_icon.png" alt="Twitter" class="twitter-icon" />
+                    <img src="linkedin_icon.png" alt="LinkedIn" class="linkedin-icon" />
+                </div>
+            </div>
+            <div class="col-md-3 footer-content-center">
+                <h2>COMPANY</h2>
+                <ul>
+                    <li>Home</li>
+                    <li>Pages</li>
+                    <li>Our news</li>
+                    <li>Contact</li>
+                </ul>
+            </div>
+            <div class="col-md-3 footer-content-right">
+                <h2>GET IN TOUCH</h2>
+                <ul>
+                    <li>9876543210</li>
+                    <li>contact@buildings.com</li>
+                </ul>
+            </div>
+        </div>
+        <hr />
+        <p class="footer-copyright">Makos-Infotech</p>
+    </div>
+
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0/dist/js/bootstrap.bundle.min.js"></script>
+    <script src="https://code.jquery.com/jquery-3.5.1.min.js"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/OwlCarousel2/2.3.4/owl.carousel.min.js"></script>
+    <script>
+        $(document).ready(function(){
+            $(".owl-carousel").owlCarousel({
+                loop: true,
+                margin: 10,
+                nav: true,
+                autoplay: true,
+                autoplayTimeout: 3000,
+                autoplayHoverPause: true,
+                responsive:{
+                    0:{
+                        items: 1
+                    },
+                    600:{
+                        items: 3
+                    },
+                    1000:{
+                        items: 5
+                    }
+                }
+            });
+        });
+    </script>  
+</body>
+</html>
